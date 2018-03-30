@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var gamblecore = require('../lib/cli/bitcore');
+gamblecore();
