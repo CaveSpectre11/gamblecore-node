@@ -4,7 +4,7 @@ RUN set -ex ; \
     apt-get update ; \
     apt-get install -yqq git
 
-ADD https://api.github.com/repos/docker/docker/compare/master...HEAD /dev/null
+ADD https://api.github.com/repos/GambleCoin-Project/gamblecore-node/compare/master...HEAD /dev/null
 
 RUN git clone https://github.com/GambleCoin-Project/gamblecore-node.git /gamblecore-node
 
